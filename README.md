@@ -3,6 +3,9 @@ Michel Besserve & Bernhard Schölkopf
 
 Max Planck Institute for Intelligent Systems, Tübingen, Germany.
 
+[Paper at UAI 2022](https://openreview.net/forum?id=HrBgldLo9ec)
+
+
 ## Code description
 Code for the toy optimization experiments is provided in the code subfolder:
   -  leontiefPriceinvarUAI.py reproduces the invariant intervention experiment of paragraph “Control of rebound effects” in
