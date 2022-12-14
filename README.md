@@ -1,5 +1,6 @@
 # Learning soft interventions in complex equilibrium systems
 Michel Besserve & Bernhard Schölkopf
+Max Planck Institute for Intelligent Systems, Tübingen, Germany.
 
 ## Code description
 Code for the toy optimization experiments is provided in the code subfolder:
@@ -7,3 +8,14 @@ Code for the toy optimization experiments is provided in the code subfolder:
 main text Sec. 5,
   -  leontiefCompartv2.py reproduces the compartmentalized intervention experiment of paragraph “Compartmentalized
 intervention design” in main text Sec. 5.
+
+## How to run
+
+First, install dependencies   
+```bash
+# clone ima_vae   
+git clone https://github.com/mbesserve/lie-inter
+
+# if forgot to pull submodules, run
+git submodule update --init
+```
