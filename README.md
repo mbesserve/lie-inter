@@ -11,12 +11,12 @@ intervention design” in main text Sec. 5.
 
 ## How to run
 
-First, install dependencies   
+First, clone this repository  
 ```bash
 # clone ima_vae   
 git clone https://github.com/mbesserve/lie-inter
 ```
-# Install requirements
+Then install required libraries
 ```bash
 cd lie-inter
 pip install -r requirements.txt
