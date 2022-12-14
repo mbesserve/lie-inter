@@ -315,17 +315,17 @@ xrefA = np.array(Xref)
 xoptA = np.array(Xopt)
 
 
-plt.figure()
-plt.plot(xrefA[:,:,invarVar,0].T,priceInvar[:,:,0].T)
-plt.plot(xrefA[:,:,invarVar,0].T,xlieA[:,:,invarVar,0].T,'--')
+# plt.figure()
+# plt.plot(xrefA[:,:,invarVar,0].T,priceInvar[:,:,0].T)
+# plt.plot(xrefA[:,:,invarVar,0].T,xlieA[:,:,invarVar,0].T,'--')
     
 klie = 2
-plt.figure()
-plt.plot(xrefA[klie,:,invarVar,0].T,priceInvar[klie,:,0].T)
-plt.plot(xrefA[klie,:,invarVar,0].T,xlieA[klie,:,invarVar,0].T)
-plt.plot(xrefA[klie,:,invarVar,0].T,xrefA[klie,:,invarVar,0].T,'k--')
-plt.legend(['intervened invariant price','lie intervened price','reference price'])
-plt.xlabel('reference price')    
+# plt.figure()
+# plt.plot(xrefA[klie,:,invarVar,0].T,priceInvar[klie,:,0].T)
+# plt.plot(xrefA[klie,:,invarVar,0].T,xlieA[klie,:,invarVar,0].T)
+# plt.plot(xrefA[klie,:,invarVar,0].T,xrefA[klie,:,invarVar,0].T,'k--')
+# plt.legend(['intervened invariant price','lie intervened price','reference price'])
+# plt.xlabel('reference price')    
 
 
 Arange = Aref[:,0,1].detach().numpy()
@@ -345,6 +345,6 @@ plt.legend(['invar. intervened energy','lie intervened energy','reference energy
 plt.xlabel('parameter value')    
 
 
-np.savez('priceInvarUAInonlin',PriceInvar=PriceINvar,Xlie=Xlie,Xref=Xref,Xopt=Xopt,invarVar=invarVar,Niter=Niter,nbatch=nbatch)
+np.savez('priceInvarUAInonlin',PriceInvar=PriceInvar,Xlie=Xlie,Xref=Xref,Xopt=Xopt,invarVar=invarVar,Niter=Niter,nbatch=nbatch)
 
     
