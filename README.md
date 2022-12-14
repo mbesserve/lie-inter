@@ -1,5 +1,6 @@
 # Learning soft interventions in complex equilibrium systems
 Michel Besserve & Bernhard Schölkopf
+
 Max Planck Institute for Intelligent Systems, Tübingen, Germany.
 
 ## Code description
