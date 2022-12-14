@@ -15,7 +15,9 @@ First, install dependencies
 ```bash
 # clone ima_vae   
 git clone https://github.com/mbesserve/lie-inter
-
-# if forgot to pull submodules, run
-git submodule update --init
+```
+# Install requirements
+```bash
+cd lie-inter
+pip install -r requirements.txt
 ```
