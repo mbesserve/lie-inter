@@ -34,7 +34,7 @@ cd lie-inter
 pip install -r requirements.txt
 ```
 Then leontiefPriceinvarUAI.py and leontiefCompartv2.py can be run independently. Semi-synthetic experiments require to run scripts in the following order:
-  1. importExiobase.pynab
+  1. importExiobase.pynb
   2. optimSingleCountryUAI.py
   3. showresCountryOptUAIfrde.py
   4. optimConvergenceUAIallyear.py
